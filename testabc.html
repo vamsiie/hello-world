@@ -2,6 +2,7 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
+	var ref1= document.referrer;
 (function() {
   var didInit = false;
   function initMunchkin() {
@@ -11,7 +12,7 @@ console.log(document.referrer);
       Munchkin.init('034-NKQ-006', {"wsInfo":"jFRU"});
 	   Munchkin.munchkinFunction('visitWebPage', {
         'url': '/vamsiie/hello-world/edit/master/testabc.html',
-        'params': document.referrer
+        'params': "'"+ref1+"'";
     }
 );
     }
@@ -32,6 +33,6 @@ console.log(document.referrer);
 </script>
 </head>
 <body>
-TEST PAGE BUMPCHICK
+TEST PAGE 
 </body>
 </html>
