@@ -1,39 +1,8 @@
 <html>
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript">
-	var ref1= document.referrer;
-	console.log(ref1+'vamsi');
-(function() {
-  var didInit = false;
-  function initMunchkin() {
-    if(didInit === false) {
-      didInit = true;
-console.log(document.referrer);
-      Munchkin.init('034-NKQ-006', {"wsInfo":"jFRU"});
-	   Munchkin.munchkinFunction('visitWebPage', {
-        'url': '/vamsiie/hello-world/edit/master/second.html.html',
-        'params': "'"+ref1+"'"
-    }
-);
-    }
-  }
-  var s = document.createElement('script');
-  s.type = 'text/javascript';
-  s.async = true;
-  s.src = 'https://munchkin.marketo.net/munchkin.js';
-  s.onreadystatechange = function() {
-    if (this.readyState == 'complete' || this.readyState == 'loaded') {
-      initMunchkin();
-    }
-  };
-  s.onload = initMunchkin;
- 
-  document.getElementsByTagName('head')[0].appendChild(s);
-})();
-</script>
+
 </head>
 <body>
-TEST PAGE 
+<a href="http://htmlpreview.github.com/?https://github.com/vamsiie/hello-world/blob/master/emailTok.html"> Click </a>
 </body>
 </html>
