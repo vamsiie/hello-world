@@ -3,6 +3,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 	var ref1= document.referrer;
+	console.log(ref1+'vamsi');
 (function() {
   var didInit = false;
   function initMunchkin() {
@@ -12,7 +13,7 @@ console.log(document.referrer);
       Munchkin.init('034-NKQ-006', {"wsInfo":"jFRU"});
 	   Munchkin.munchkinFunction('visitWebPage', {
         'url': '/vamsiie/hello-world/edit/master/testabc.html',
-        'params': "'"+ref1+"'";
+        'params': 'referralPage';
     }
 );
     }
